@@ -67,7 +67,7 @@ function render() {
     <p>Номер документа</p>
     </div>
     <div class="data">
-    <p>${i.Newsurname},${i.Newname}$,{i.Newpatronymic}</p>
+    <p>${i.Newsurname},${i.Newname},${i.Newpatronymic}</p>
     <p>${i.Newcountry}</p>
     <p>${i.Newborn}</p>
     <p>${i.Newgender}</p>
