@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link href="/website/css/uicons-outline-rounded.css" rel="stylesheet" />
+    <title>SIdebar</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="btn__container">
+          <button id="order__btn" class="order__btn">Order</button>
+          <button id="order__delete" class="order__btn">Delete All</button>
+        </div>
+        <div class="modal" id="modal">
+          <p class="modal__title">Листок гостя</p>
+          <form id="form">
+            <div class="modal__container">
+              <div>
+                <p>фамилия</p>
+                <input type="text" placeholder="фамилия" id="surname__input" />
+              </div>
+              <div>
+                <p>имя</p>
+                <input type="text" placeholder="имя" id="name__input" />
+              </div>
+              <div>
+                <p>отчество</p>
+                <input
+                  type="text"
+                  placeholder="отчество"
+                  id="patronymic__input"
+                />
+              </div>
+              <div>
+                <p>страна рождения</p>
+                <select id="country__input">
+                  <option value="Uzbekistan">Uzbekistan</option>
+                  <option value="Uzbekistan">Russian</option>
+                  <option value="Uzbekistan">Usa</option>
+                </select>
+              </div>
+              <div>
+                <p>дата рождения</p>
+                <input
+                  type="text"
+                  placeholder="дата рождения"
+                  id="born__input"
+                />
+              </div>
+              <div>
+                <p>пол</p>
+                <select id="gender__input">
+                  <option value="Man">Man</option>
+                  <option value="Women">Women</option>
+                  <option
+                    value="
+                  Another"
+                  >
+                    Another
+                  </option>
+                </select>
+              </div>
+              <div>
+                <p>тип документа</p>
+                <input
+                  type="text"
+                  placeholder="тип документа"
+                  id="tips__input"
+                />
+              </div>
+              <div>
+                <p>Серия документа</p>
+                <input
+                  type="text"
+                  placeholder="Серия документа"
+                  id="series__input"
+                />
+              </div>
+              <div>
+                <p>Номер документа</p>
+                <input
+                  type="text"
+                  placeholder="Номер документа"
+                  id="number__input"
+                />
+              </div>
+            </div>
+            <button type="submit" id="addbtn">Send</button>
+          </form>
+        </div>
+        <div id="forum__aside"></div>
+      </div>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
