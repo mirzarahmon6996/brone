@@ -80,7 +80,7 @@ function render() {
   });
 }
 orderBtn.addEventListener("click", () => {
-  modalBlock.classList.toggle("modal__block");
+  modalBlock.classList.add("modal__block");
   body.classList.add("active");
 });
 function close() {
